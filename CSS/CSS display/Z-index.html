@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-index</title>
+</head>
+<style>
+    div{
+        border: 1px solid black;
+        width: 200px;
+        height: 200px;
+        position: absolute;
+    }
+    #first{
+        background-color: darkseagreen;
+        top: 100px;
+        left: 50px;
+    }
+    #second{
+        background-color: rgb(39, 69, 104);
+        top: 150px;
+        left: 100px;
+        z-index: 1;
+    }
+    #third{
+        background-color: rgb(9, 88, 206);
+        top: 200px;
+        left: 150px;
+    }
+</style>
+<body>
+    <h1>Z-index Property</h1>
+    <div id="first">A</div>
+    <div id="second">B</div>
+    <div id="third">C</div>
+</body>
+</html>

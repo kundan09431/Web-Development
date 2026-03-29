@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media</title>
+    <style>
+        body{
+            background-color: yellow;
+        }
+        @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+.example{
+    background-color: black;
+    color: #fff;
+    padding: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    display: none;
+  }
+}
+    </style>
+</head>
+<body>
+    <h1>The @media Rule</h1>
+
+    <div class="example">Example DIV.</div>
+
+<p>Resize the browser window. When the width of this document is 600 pixels or less, the background-color is "lightblue", otherwise it is "yellow".</p>
+
+</body>
+</html>

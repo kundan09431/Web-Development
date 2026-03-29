@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Table</title>
+</head>
+<style>
+    table,th,td{
+        border: 1px solid black;
+    }
+    th,td{
+        background-color: black;
+        text-align: left;
+        padding: 16px;
+        font-size: 20px;
+        color: aliceblue;
+    }
+    th:hover{
+        background-color: red;
+    }
+    td:hover{
+        background-color: aquamarine;
+    }
+    tfoot:hover{
+        background-color: pink;
+    }
+</style>
+<body>
+    <h1>CSS Table</h1>
+    <table>
+        <tr>
+            <th>Subject</th>
+            <th>Full Marks</th>
+        </tr>
+        <tr>
+            <td>Mathematics</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Physics</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Chemistry</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Computer</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>English</td>
+            <td>100</td>
+        </tr>
+        <tfoot>
+            <td>Total Marks</td>
+            <td>500</td>
+        </tfoot>
+    </table>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aligned Dropdown Content</title>
+</head>
+<style>
+    .second {
+      background-color: #4CAF50;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .first {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .third {
+      display: none;
+      position: absolute;
+      right: 0;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .third a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .third a:hover {background-color: #f1f1f1;}
+    
+    .first:hover .third {
+      display: block;
+    }
+    
+    .first:hover .second {
+      background-color: #3e8e41;
+    }
+    </style>
+<body>
+    <h2>Aligned Dropdown Content</h2>
+<p>Determine whether the dropdown content should go from left to right or right to left with the left and right properties.</p>
+
+<div class="first" style="float:left;">
+  <button class="second">Left</button>
+  <div class="third" style="left:0;">
+  <a href="#">Link 1</a>
+  <a href="#">Link 2</a>
+  <a href="#">Link 3</a>
+  </div>
+</div>
+
+<div class="first" style="float:right;">
+  <button class="second">Right</button>
+  <div class="third">
+  <a href="#">Link 1</a>
+  <a href="#">Link 2</a>
+  <a href="#">Link 3</a>
+  </div>
+</div>
+</body>
+</html>

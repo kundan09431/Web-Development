@@ -8,7 +8,7 @@
 .parallax-1{
     width: 100%;
     height: 600px;
-    background: url('../img/programming.jpg');
+    background: url('./programming.jpg');
     background-size: 100% 100%;
     background-attachment: fixed;
 }
@@ -32,7 +32,7 @@
 .parallax-2 {
     width: 100%;
     height: 600px;
-    background: url('../img/application.jpg');
+    background: url('./application.jpg');
     background-size: 100% 100%;
     background-attachment: fixed;
 }

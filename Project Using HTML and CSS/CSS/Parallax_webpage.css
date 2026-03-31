@@ -58,15 +58,14 @@
     padding: 50px;
     background-color: black;
     color: white;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 /* Styling the content or paragraph */
 .para-2 {
     text-align: center;
     padding: 25px;
-    font-size: 17px;
-    font-family: Verdana;
+    font-size: 20px;
     background-color: black;
     color: white;
 }
